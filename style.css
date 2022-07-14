@@ -73,6 +73,7 @@ footer {
     display: flex;
     font-family: Oswald;
     width: 100%;
+    background-color: #004175;
 }
 
 .footer-image {
@@ -82,19 +83,13 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: .6 blue;
+    opacity: .5;
 
 }
 
 .footer-image h4 {
     text-align: center;
     padding: auto;
-}
-
-.overlay {
-    background-color: #0000ba80;
-    height: 100%;
-    width: 100%
 }
 
 #donate {
