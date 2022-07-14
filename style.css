@@ -17,8 +17,9 @@ h1 {
     margin: 0%;
 }
 
-h2 {
+.adopt {
     margin-bottom: 0;
+    margin-left: 5%
 }
 
 .dogs {
@@ -37,7 +38,7 @@ h2 {
 
 .dog-profile {
     width: 33%;
-    padding: 1rem;
+    padding: .5rem;
     padding-top: 0;
 
 }
@@ -68,4 +69,43 @@ li {
     font-size: .5em;
 }
 
-.footer img {}
+footer {
+    display: flex;
+    font-family: Oswald;
+    width: 100%;
+}
+
+.footer-image {
+    height: 10rem;
+    flex-grow: 1;
+    flex-basis: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: .6 blue;
+
+}
+
+.footer-image h4 {
+    text-align: center;
+    padding: auto;
+}
+
+.overlay {
+    background-color: #0000ba80;
+    height: 100%;
+    width: 100%
+}
+
+#donate {
+    background-image: url("starter_files/images/donate.jpg");
+}
+
+#volunteer {
+    background-image: url("starter_files/images/volunteer.jpg");
+}
+
+#location {
+    background-image: url("starter_files/images/location.png");
+
+}
