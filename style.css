@@ -23,26 +23,28 @@ h1 {
 }
 
 .dogs {
-    display: inline-block;
-    margin: 1em;
+    display: flex;
+    margin: 3rem;
     margin-top: 0;
-
+    flex-wrap: wrap;
 
 }
 
 .dog-row {
     display: flex;
     /* width: 25%; */
-    margin: 1em;
+    margin: 0;
     margin-top: 0;
-
 }
 
 .dog-profile {
-    width: 33%;
-    padding: .5rem;
-    padding-top: 0;
-    flex-wrap: wrap;
+    /* display: inline-block; */
+    width: 10rem;
+    padding: .1rem;
+    padding: .1em;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+
 }
 
 .dog-picture {
@@ -57,31 +59,23 @@ h3 {
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
-
+    padding: 0.1em;
+    position: relative;
 }
 
 li {
     display: inline-block;
     background-color: #89DEEF;
     border-radius: 20pt;
-    padding: .2em;
-    width: fit-content;
-    margin: .1em;
-    font-size: .5em;
+    /* width: fit-content; */
+    padding: .2rem .4rem;
+    margin: .2rem;
+    font-size: .5rem;
 }
 
 footer {
     display: flex;
     font-family: oswald;
-    text-align: center;
-    text-justify: center;
-    /* color: white width: 100%; */
-    position: relative;
-    /* height: 100vh; */
-    align-items: center;
-    /* justify-content: center; */
-    /* background-color: #9ecbef; */
 }
 
 .footer-image {
@@ -89,27 +83,17 @@ footer {
     flex-grow: 1;
     flex-basis: 0%;
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    /* background-position: center center; */
+    background-position: center;
     width: 100%;
-    /* opacity: .5; */
-
 }
 
 .footer-image h4 {
-    display: flex-box;
-    flex: 1 1 auto;
-    text-align: center;
-    /* padding: auto; */
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: normal;
-    align-items: center;
-    justify-content: center;
-    /* position: relative;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* background: linear-gradient (#A6A9F0, #A6A9F0); */
 }
 
 #donate {
@@ -117,6 +101,7 @@ footer {
         linear-gradient(rgba(166, 169, 240, .65),
             rgba(166, 169, 240, .65)),
         url("starter_files/images/donate.jpg");
+
 }
 
 #volunteer {
