@@ -27,6 +27,7 @@ h1 {
     margin: 1em;
     margin-top: 0;
 
+
 }
 
 .dog-row {
@@ -34,13 +35,14 @@ h1 {
     /* width: 25%; */
     margin: 1em;
     margin-top: 0;
+
 }
 
 .dog-profile {
     width: 33%;
     padding: .5rem;
     padding-top: 0;
-
+    flex-wrap: wrap;
 }
 
 .dog-picture {
@@ -62,8 +64,8 @@ ul {
 li {
     display: inline-block;
     background-color: #89DEEF;
-    border-radius: 15pt;
-    padding: .3em;
+    border-radius: 20pt;
+    padding: .2em;
     width: fit-content;
     margin: .1em;
     font-size: .5em;
@@ -71,9 +73,114 @@ li {
 
 footer {
     display: flex;
-    font-family: Oswald;
+    font-family: oswald;
+    text-align: center;
+    text-justify: center;
+    /* color: white width: 100%; */
+    position: relative;
+    /* height: 100vh; */
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: #9ecbef; */
+}
+
+.footer-image {
+    height: 10rem;
+    flex-grow: 1;
+    flex-basis: 0%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
     width: 100%;
-    background-color: #004175;
+    /* opacity: .5; */
+
+}
+
+.footer-image h4 {
+    display: flex-box;
+    flex: 1 1 auto;
+    text-align: center;
+    /* padding: auto; */
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background: linear-gradient (#A6A9F0, #A6A9F0); */
+}
+
+#donate {
+    background-image:
+        linear-gradient(rgba(166, 169, 240, .65),
+            rgba(166, 169, 240, .65)),
+        url("starter_files/images/donate.jpg");
+}
+
+#volunteer {
+    background-image:
+        linear-gradient(rgba(166, 169, 240, .65),
+            rgba(166, 169, 240, .65)),
+        url("starter_files/images/volunteer.jpg");
+}
+
+#location {
+    background-image:
+        linear-gradient(rgba(166, 169, 240, .65),
+            rgba(166, 169, 240, .65)),
+        url("starter_files/images/location.png");
+
+
+    /* .footer-image::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 250, 0, .25) */
+}
+
+/* #donate {
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(starter_files/images/donate.jpg)
+} */
+
+
+
+
+
+/* h4 {
+    color: white;
+} */
+
+
+
+/* .overlay {
+        background: linear-gradient (#A6A9F0, #A6A9F0)
+    } */
+
+
+/* .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 5, 0) display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    } */
+
+/* opacity: .5;
 }
 
 .footer-image {
@@ -84,12 +191,20 @@ footer {
     background-repeat: no-repeat;
     background-position: center center;
     opacity: .5;
-
 }
 
 .footer-image h4 {
     text-align: center;
     padding: auto;
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+h4 {
+    color: white;
+    background-color: #9ecbef;
+    mix-blend-mode: multiply
 }
 
 #donate {
@@ -102,5 +217,3 @@ footer {
 
 #location {
     background-image: url("starter_files/images/location.png");
-
-}
