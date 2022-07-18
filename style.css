@@ -1,0 +1,204 @@
+body {
+    font-family: "open sans";
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header {
+    background-color: #004175;
+    color: white;
+    padding: 2%;
+    border-bottom-style: solid;
+    border-bottom-color: #89DEEF;
+    border-width: 5px
+}
+
+h1 {
+    margin: 0%;
+}
+
+.adopt {
+    margin-bottom: 0;
+    margin-left: 5%
+}
+
+.dogs {
+    display: flex;
+    margin: 3rem;
+    margin-top: 0;
+    flex-wrap: wrap;
+
+}
+
+.dog-row {
+    display: flex;
+    /* width: 25%; */
+    margin: 0;
+    margin-top: 0;
+}
+
+.dog-profile {
+    /* display: inline-block; */
+    width: 10rem;
+    padding: .1rem;
+    padding: .1em;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+
+}
+
+.dog-picture {
+    width: 100%
+}
+
+h3 {
+    font-family: oswald;
+    margin: 0
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.1em;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+    background-color: #89DEEF;
+    border-radius: 20pt;
+    /* width: fit-content; */
+    padding: .2rem .4rem;
+    margin: .2rem;
+    font-size: .5rem;
+}
+
+footer {
+    display: flex;
+    font-family: oswald;
+}
+
+.footer-image {
+    height: 10rem;
+    flex-grow: 1;
+    flex-basis: 0%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.footer-image h4 {
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+#donate {
+    background-image:
+        linear-gradient(rgba(166, 169, 240, .65),
+            rgba(166, 169, 240, .65)),
+        url("starter_files/images/donate.jpg");
+
+}
+
+#volunteer {
+    background-image:
+        linear-gradient(rgba(166, 169, 240, .65),
+            rgba(166, 169, 240, .65)),
+        url("starter_files/images/volunteer.jpg");
+}
+
+#location {
+    background-image:
+        linear-gradient(rgba(166, 169, 240, .65),
+            rgba(166, 169, 240, .65)),
+        url("starter_files/images/location.png");
+
+
+    /* .footer-image::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 250, 0, .25) */
+}
+
+/* #donate {
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(starter_files/images/donate.jpg)
+} */
+
+
+
+
+
+/* h4 {
+    color: white;
+} */
+
+
+
+/* .overlay {
+        background: linear-gradient (#A6A9F0, #A6A9F0)
+    } */
+
+
+/* .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 5, 0) display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    } */
+
+/* opacity: .5;
+}
+
+.footer-image {
+    height: 10rem;
+    flex-grow: 1;
+    flex-basis: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: .5;
+}
+
+.footer-image h4 {
+    text-align: center;
+    padding: auto;
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+h4 {
+    color: white;
+    background-color: #9ecbef;
+    mix-blend-mode: multiply
+}
+
+#donate {
+    background-image: url("starter_files/images/donate.jpg");
+}
+
+#volunteer {
+    background-image: url("starter_files/images/volunteer.jpg");
+}
+
+#location {
+    background-image: url("starter_files/images/location.png");
